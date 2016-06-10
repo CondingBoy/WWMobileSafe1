@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="helloworld.example.administrator.wwmobilesafe1.HomeActivity">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="home" />
+
+    <helloworld.example.administrator.wwmobilesafe1.view.FocusTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="2dp"
+        android:singleLine="true"
+        android:text="手机安全小助手，啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <GridView
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:verticalSpacing="10dp">
+    </GridView>
+</LinearLayout>
